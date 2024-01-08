@@ -45,7 +45,10 @@ const Page = () => {
   };
 
   const getMessages = async () => {
-    const { data, error } = await supabase.from('chat').select('*');
+    const { data, error } = await supabase
+      .from('chat')
+      .select('*')
+      .order('id', { ascending: true });
 
     console.log(data);
     setMessages(data);
