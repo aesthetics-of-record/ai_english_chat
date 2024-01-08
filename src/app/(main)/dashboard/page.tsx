@@ -165,7 +165,7 @@ const Page = () => {
                           <ChatDialog chat={chat}>
                             <div
                               key={chat.id}
-                              className='flex items-end justify-end  relative'
+                              className='flex items-end justify-end relative'
                             >
                               <div className='rounded-lg bg-primary p-2'>
                                 <p className='text-sm'>{chat.message}</p>
@@ -183,7 +183,7 @@ const Page = () => {
                           <ChatDialog chat={chat}>
                             <div
                               key={chat.id}
-                              className='flex items-end justify-end  relative'
+                              className='flex items-end justify-end relative'
                             >
                               <div className='rounded-lg bg-primary p-2'>
                                 <p className='text-sm'>{chat.message}</p>
@@ -202,7 +202,7 @@ const Page = () => {
                         <ChatDialog chat={chat}>
                           <div
                             key={chat.id}
-                            className='flex items-end gap-2 mt-4 mb-4 relative'
+                            className='flex items-end gap-2 relative'
                           >
                             <div className='rounded-lg bg-zinc-700 p-2'>
                               <p className='text-sm'>{chat.message}</p>
@@ -220,7 +220,7 @@ const Page = () => {
                         <ChatDialog chat={chat}>
                           <div
                             key={chat.id}
-                            className='flex items-end gap-2 mt-4 mb-4 relative'
+                            className='flex items-end gap-2 relative'
                           >
                             <div className='rounded-lg bg-zinc-700 p-2'>
                               <p className='text-sm'>{chat.message}</p>
